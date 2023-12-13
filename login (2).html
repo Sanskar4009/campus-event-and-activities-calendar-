@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Join Us</title>
+
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="login.css">
+
+  <script src="JS/script.js"></script>
+  
+</head>
+<body>
+  <!-- Navigation Tab -->
+  <header class="Nav-Header">
+    <nav>
+      <div class="Nav-container">
+        <div class="logo">
+        </div>
+      </nav>
+      </div>
+  </header>
+
+  <!-- Login Page -->
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+      <form action="index.html" name="form" onsubmit="return Validation()">
+        <input type="text" placeholder="Enter your email" name="email">
+        <input type="password" placeholder="Enter your password" name="password">
+        <a href="#">Forgot password?</a>
+        <a href="newproject.html">
+        <input type="" class="button" value="Login"></a>
+        
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+         <label for="check">Signup</label>
+        </span>
+      </div>
+    </div>
+
+    <!-- registration form -->
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="loginto.html" name="form01" onsubmit="return Signup_Validation()">
+        <input type="text" placeholder="Enter your email" name="email01">
+        <input type="password" placeholder="Create a password" name="password01">
+        <input type="password" placeholder="Confirm your password" name="C_password">
+        <input type="submit" class="button" value="Signup">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
